@@ -1,0 +1,55 @@
+title: My Site
+description: This is a description of my awesome site.
+logo: null
+teaser: null
+locale: en
+url: ''
+feed:
+  path: atom.xml
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: '/:categories/:title/'
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+owner:
+  name: null
+  email: null
+  twitter: null
+  google:
+    ad-client: null
+    ad-slot: null
+  bio: null
+  avatar: bio-photo.jpg
+  disqus-shortname: null
+include:
+  - .htaccess
+exclude:
+  - '*.less'
+  - '*.sublime-project'
+  - '*.sublime-workspace'
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
+baseurl: ''
